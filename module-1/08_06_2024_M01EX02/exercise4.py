@@ -24,6 +24,10 @@ if __name__ == '__main__':
     target = 'you'
     print(solution(source, target))
 
+    source = "hi"
+    target = "hello"
+    print(solution(source, target))
+
     source = "holla"
     target = "hello"
     print(solution(source, target))
