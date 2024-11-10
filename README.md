@@ -1,13 +1,14 @@
 AIO2024 homework
 - export requirements
 ```bash
-pip freeze > requirements.txt
+pip list --format=freeze > requirements.txt
+conda env export > environment.yml --no-builds
 ```
 - start env
 
 ```bash
 conda activate aio2024-hw
-pip install -r requirements.txt
+conda install --yes --file requirements.txt
 
 streamlit run <file_name>.py
 ```
