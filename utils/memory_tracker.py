@@ -1,3 +1,4 @@
+from typing import Optional
 import torch
 import gc
 
@@ -13,7 +14,7 @@ class MemoryTracker:
         return 0, 0
 
     @staticmethod
-    def clear_memory(model: torch.nn.Module):
+    def clear_memory(model: Optional[torch.nn.Module] = None):
         """Thoroughly clear GPU and CPU memory."""
         try:
             if torch.cuda.is_available():
@@ -24,7 +25,7 @@ class MemoryTracker:
             gc.collect()
             
             # Release CPU memory if possible
-            if 'cuda' in str(next(model.parameters()).device):
+            if model and 'cuda' in str(next(model.parameters()).device):
                 with torch.cuda.device('cuda'):
                     torch.cuda.empty_cache()
                     gc.collect()
