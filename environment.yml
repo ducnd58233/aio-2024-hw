@@ -5,6 +5,7 @@ channels:
   - pytorch
   - nvidia
 dependencies:
+  - python>=3.12
   - matplotlib
   - numpy
   - streamlit
@@ -22,5 +23,8 @@ dependencies:
   - timm
   - transformers
   - accelerate
-  - bitsandbytes
 prefix: /home/jiggle/miniconda3/envs/aio2024-hw
+platforms:
+  - linux-64
+  - win-64
+  - osx-64

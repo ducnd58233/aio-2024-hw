@@ -14,8 +14,9 @@ conda env export --from-history > environment.yml --no-builds
 # First using conda
 conda remove -n aio2024-hw --all
 conda create -n aio2024-hw python=3.12
+conda activate aio2024-hw
 conda install -n base conda-libmamba-solver
-conda env create --file=./environment.yml --solver=libmamba --verbose
+conda env create -n aio2024-hw --file=./environment.yml --solver=libmamba --verbose
 ```
 
 ```bash
