@@ -23,6 +23,8 @@ dependencies:
   - timm
   - transformers
   - accelerate
+  - kagglehub
+  - torchmetrics
 prefix: /home/jiggle/miniconda3/envs/aio2024-hw
 platforms:
   - linux-64
