@@ -1,6 +1,6 @@
 def my_func(data, ma, mi):
     res = []
-    
+
     for i in data:
         if i < mi:
             res.append(mi)
@@ -10,5 +10,6 @@ def my_func(data, ma, mi):
             res.append(i)
     return res
 
-if __name__ == '__main__':
+
+if __name__ == "__main__":
     print(my_func([10, 2, 5, 0, 1], 2, 1))

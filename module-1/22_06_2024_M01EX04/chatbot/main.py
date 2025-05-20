@@ -3,23 +3,24 @@ from hugchat import hugchat
 from hugchat.login import Login
 
 # App title
-st.title('Simple ChatBot')
+st.title("Simple ChatBot")
 
 # Hugging Face Credentials
 with st.sidebar:
-    st.title('Login HugChat')
-    hf_email = st.text_input('Enter E-mail:')
-    hf_pass = st.text_input('Enter Password:', type='password')
+    st.title("Login HugChat")
+    hf_email = st.text_input("Enter E-mail:")
+    hf_pass = st.text_input("Enter Password:", type="password")
     if not (hf_email and hf_pass):
-        st.warning('Please enter your account!', icon='⚠️')
+        st.warning("Please enter your account!", icon="⚠️")
     else:
-        st.success('Proceed to entering your prompt message!', icon='👉')
+        st.success("Proceed to entering your prompt message!", icon="👉")
 
 
 # Store LLM generated responses
 if "messages" not in st.session_state.keys():
     st.session_state.messages = [
-        {"role": "assistant", "content": "How may I help you?"}]
+        {"role": "assistant", "content": "How may I help you?"}
+    ]
 
 # Display chat messages
 for message in st.session_state.messages:

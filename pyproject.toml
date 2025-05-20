@@ -1,0 +1,37 @@
+[project]
+name = "aio-2024-hw"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "ducnd58233",email = "only4wns@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "spacy (>=3.8.4,<4.0.0)",
+    "matplotlib (>=3.10.1,<4.0.0)",
+    "numpy (>=2.2.3,<3.0.0)",
+    "jupyter (>=1.1.1,<2.0.0)",
+    "scikit-learn (>=1.6.1,<2.0.0)",
+    "streamlit (>=1.43.2,<2.0.0)",
+    "gdown (>=5.2.0,<6.0.0)",
+    "timm (>=1.0.15,<2.0.0)",
+    "nltk (>=3.9.1,<4.0.0)",
+    "torch (>=2.6.0,<3.0.0)",
+    "torchvision (>=0.21.0,<0.22.0)",
+    "torchaudio (>=2.6.0,<3.0.0)",
+    "sentence-transformers (>=3.4.1,<4.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.group.dev.dependencies]
+pre-commit = "^4.2.0"
+pre-commit-hooks = "^5.0.0"
+black = "^25.1.0"
+isort = "^6.0.1"
+autoflake = "^2.3.1"
+
