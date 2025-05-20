@@ -55,6 +55,8 @@ poetry run pre-commit run --all-files
 ```
 
 ## Content
+<!-- 
+Comment this since github sanitize this style tag
 <style>
     table {
         width: 85%;
@@ -75,7 +77,8 @@ poetry run pre-commit run --all-files
     table th:nth-child(4) {
         width: 60%;
     }
-</style>
+</style> 
+-->
 
 ### [Module 1: Towards AI and Data Science](./module-1)
 |Date|ID|Topic|Note|
