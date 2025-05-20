@@ -19,7 +19,7 @@ class Stack:
         return self.data[-1]
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     s = Stack(capacity=5)
     s.push(1)
     s.push(2)

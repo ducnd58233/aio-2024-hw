@@ -46,7 +46,7 @@ class Queue:
         return "-".join(res)
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     q1 = Queue(capacity=5)
     q1.enqueue(1)
     q1.enqueue(2)

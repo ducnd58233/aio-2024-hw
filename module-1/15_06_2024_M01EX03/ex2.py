@@ -34,7 +34,9 @@ class Student(Person):
         self.__grade = grade
 
     def describe(self) -> None:
-        print(f"{self.get_job()} - Name: {self.get_name()} - YoB: {self.get_yob()} - Grade: {self.__grade}")
+        print(
+            f"{self.get_job()} - Name: {self.get_name()} - YoB: {self.get_yob()} - Grade: {self.__grade}"
+        )
 
 
 class Teacher(Person):
@@ -43,7 +45,9 @@ class Teacher(Person):
         self.__subject = subject
 
     def describe(self) -> None:
-        print(f"{self.get_job()} - Name: {self.get_name()} - YoB: {self.get_yob()} - Subject: {self.__subject}")
+        print(
+            f"{self.get_job()} - Name: {self.get_name()} - YoB: {self.get_yob()} - Subject: {self.__subject}"
+        )
 
 
 class Doctor(Person):
@@ -52,7 +56,9 @@ class Doctor(Person):
         self.__specialist = specialist
 
     def describe(self) -> None:
-        print(f"{self.get_job()} - Name: {self.get_name()} - YoB: {self.get_yob()} - Specialist: {self.__specialist}")
+        print(
+            f"{self.get_job()} - Name: {self.get_name()} - YoB: {self.get_yob()} - Specialist: {self.__specialist}"
+        )
 
 
 class Ward:
@@ -63,9 +69,7 @@ class Ward:
 
     def add_person(self, person: Person) -> None:
         self.__people.append(person)
-        self.__jobs[person.get_job()] = self.__jobs.get(
-            person.get_job(), []
-        )
+        self.__jobs[person.get_job()] = self.__jobs.get(person.get_job(), [])
         self.__jobs[person.get_job()].append(person)
 
     def count_doctor(self) -> int:
@@ -89,7 +93,7 @@ class Ward:
             person.describe()
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     # 2a
     s1 = Student(name="studentA", yob=2010, grade="7")
     s1.describe()

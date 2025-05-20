@@ -20,10 +20,10 @@ class SoftmaxStable(nn.Module):
         x_max = torch.max(x, dim=0, keepdim=True)
         x_exp = torch.exp(x - x_max.values)
         sum_exp = x_exp.sum(0, keepdim=True)
-        return x_exp/sum_exp
+        return x_exp / sum_exp
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     data = torch.Tensor([1, 2, 3])
     softmax = Softmax()
     output = softmax(data)

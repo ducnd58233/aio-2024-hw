@@ -1,6 +1,6 @@
 ### Xử Lý Ảnh và Convolutional Neural Networks (CNN)
 
-Trong xử lý ảnh, mỗi bức ảnh có hàng triệu pixels, và mỗi pixel được xem như một **feature**.  
+Trong xử lý ảnh, mỗi bức ảnh có hàng triệu pixels, và mỗi pixel được xem như một **feature**.
 Ví dụ: Với ảnh kích thước **1000x1000**, sẽ có **1.000.000 features**.
 
 #### Vấn Đề Với Neural Networks Thông Thường
@@ -20,10 +20,10 @@ Hệ quả:
 
 CNN được phát triển để giải quyết các vấn đề này hiệu quả hơn, dựa trên hai đặc tính của ảnh:
 
-1. **Feature Localization**:  
+1. **Feature Localization**:
    Mỗi pixel hoặc feature liên quan đến các pixel lân cận.
 
-2. **Feature Independence of Location**:  
+2. **Feature Independence of Location**:
    Một feature vẫn giữ nguyên giá trị, bất kể vị trí của nó trong ảnh.
 
 #### Các Cơ Chế Chính Của CNN

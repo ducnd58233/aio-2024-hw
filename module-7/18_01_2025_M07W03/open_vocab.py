@@ -45,6 +45,7 @@ def save_detection_results(results: Boxes) -> list[str]:
 
     return saved_paths
 
+
 # Initialize a YOLO-World model
 model = YOLOWorld("yolov8x-world.pt")
 

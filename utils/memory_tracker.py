@@ -1,9 +1,12 @@
-from typing import Optional
-import torch
 import gc
+from typing import Optional
+
+import torch
+
 
 class MemoryTracker:
     """Track and manage memory usage during training."""
+
     @staticmethod
     def get_memory_stats():
         if torch.cuda.is_available():
@@ -20,17 +23,18 @@ class MemoryTracker:
             if torch.cuda.is_available():
                 torch.cuda.empty_cache()
                 torch.cuda.synchronize()
-            
+
             # Clear Python's garbage collector
             gc.collect()
-            
+
             # Release CPU memory if possible
-            if model and 'cuda' in str(next(model.parameters()).device):
-                with torch.cuda.device('cuda'):
+            if model and "cuda" in str(next(model.parameters()).device):
+                with torch.cuda.device("cuda"):
                     torch.cuda.empty_cache()
                     gc.collect()
         except Exception as e:
             print(f"Memory clearing error: {str(e)}")
+
 
 def safe_to_device(tensor, device, non_blocking=True):
     """Safely move tensor to device with error handling."""
@@ -41,4 +45,6 @@ def safe_to_device(tensor, device, non_blocking=True):
         try:
             return tensor.to(device, non_blocking=False)
         except RuntimeError:
-            raise RuntimeError(f"Failed to move tensor to device even after memory cleanup: {str(e)}")
+            raise RuntimeError(
+                f"Failed to move tensor to device even after memory cleanup: {str(e)}"
+            )

@@ -17,9 +17,7 @@ def process_image(image):
     return detections
 
 
-def annotate_image(
-    image, detections, confidence_threshold=0.5
-):
+def annotate_image(image, detections, confidence_threshold=0.5):
     (h, w) = image.shape[:2]
     for i in np.arange(0, detections.shape[2]):
         confidence = detections[0, 0, i, 2]
