@@ -58,11 +58,31 @@ poetry run pre-commit run --all-files
 
 
 ### [Module 1: Towards AI and Data Science](./module-1)
+<div align="center">
+
+|Date|ID|Topic|Note|
+|---|---|---|---|
+|01/06/2024|[M01EX01](./module-1/01_06_2024_M01EX01)|Basic Python|Python syntax|
+|08/06/2024|[M01EX02](./module-1/08_06_2024_M01EX02)|Data Structure|Data Structure with Python|
+|15/06/2024|[M01EX03](./module-1/15_06_2024_M01EX03)|OOP|OOP with Python|
+|22/06/2024|[M01EX04](./module-1/22_06_2024_M01EX04)|Streamlit|Streamlit project|
+
+</div>
 
 ### [Module 2: Calculus and Linear Algegra, and theirs Applications to AI](./module-2)
+<div align="center">
+
+|Date|ID|Topic|Note|
+|---|---|---|---|
+|06/07/2024|[M02EX01](./module-2/06_07_2024_M02EX01)|Numpy|Numpy syntax|
+|13/07/2024|[M02EX02](./module-2/13_07_2024_M02EX02)|Vector|How to calculate matrix inverse, eigen values and eigen vectors|
+|20/07/2024|[M02EX03](./module-2/20_07_2024_M02EX03)|Probability|Naive Bayes Classifier|
+|27/07/2024|[M02EX04](./module-2/27_07_2024_M02EX04)|Statistics||
+
+</div>
 
 ### [Module 3: Probability&Statistics and Optimization, and theirs Applications to AI](./module-3)
-<div align="center" width="100%">
+<div align="center">
 
 |Date|ID|Topic|Note|
 |---|---|---|---|
@@ -82,13 +102,49 @@ poetry run pre-commit run --all-files
 |09/10/2024|[M04W01](./module-4/09_10_2024_M04W01)|Linear Regression|How to implement Linear Regression from scratch|
 
 ### [Module 5: Steps to Deep Learning (Using Numpy and PyTorch)](./module-5)
+<div align="center">
+
+|Date|ID|Topic|Note|
+|---|---|---|---|
+
+</div>
 
 ### [Module 6: Deep Learning for Different Data (Using PyTorch)](./module-6)
+<div align="center">
+
+|Date|ID|Topic|Note|
+|---|---|---|---|
+
+</div>
 
 ### [Module 7: Deep Learning Applications for Images](./module-7)
+<div align="center">
+
+|Date|ID|Topic|Note|
+|---|---|---|---|
+
+</div>
 
 ### [Module 8: Deep Learning Applications for Text](./module-8)
+<div align="center">
+
+|Date|ID|Topic|Note|
+|---|---|---|---|
+
+</div>
 
 ### [Module 9: Generative Models](./module-9)
+<div align="center">
+
+|Date|ID|Topic|Note|
+|---|---|---|---|
+
+</div>
 
 ### [Module 10: Advanced Deep Learning and LLMs](./module-10)
+<div align="center">
+
+|Date|ID|Topic|Note|
+|---|---|---|---|
+
+</div>
