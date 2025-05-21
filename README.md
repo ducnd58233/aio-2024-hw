@@ -110,7 +110,7 @@ Comment this since github sanitize this style tag
 ### [Module 4: Machine Learning and Data Science](./module-4)
 |Date|ID|Topic|Note|
 |---|---|---|---|
-|09/10/2024|[M04W01](./module-4/09_10_2024_M04W01)|Linear Regression|How to implement Linear Regression from scratch with Numpy|
+|28/09/2024|[M04W01](./module-4/28_09_2024_M04W01)|Linear Regression|How to implement Linear Regression from scratch with Numpy|
 
 ### [Module 5: Steps to Deep Learning (Using Numpy and PyTorch)](./module-5)
 |Date|ID|Topic|Note|
