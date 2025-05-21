@@ -112,6 +112,7 @@ Comment this since github sanitize this style tag
 |---|---|---|---|
 |28/09/2024|[M04W01](./module-4/28_09_2024_M04W01)|Linear Regression|How to implement Linear Regression from scratch with Numpy|
 |05/10/2024|[M04W02](./module-4/05_10_2024_M04W02)|Linear Regression|How to implement Linear Regression with vectorization using stochastic gradient descent, m samples (mini-batch gradient descent), N samples (batch gradient descent) in numpy|
+|12/10/2024|[M04W03](./module-4/12_10_2024_M04W03)|Genetic Algorithm|How to implement Genetic Algorithm|
 
 ### [Module 5: Steps to Deep Learning (Using Numpy and PyTorch)](./module-5)
 |Date|ID|Topic|Note|
