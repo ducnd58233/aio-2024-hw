@@ -115,7 +115,9 @@ Comment this since github sanitize this style tag
 ### [Module 5: Steps to Deep Learning (Using Numpy and PyTorch)](./module-5)
 |Date|ID|Topic|Note|
 |---|---|---|---|
-|26/10/2024|[M05EX01](./module-5/26_10_2024_M05EX01)|Logistic Regression|How to implement Logistic Regression from scratch|
+|26/10/2024|[M05W01](./module-5/26_10_2024_M05W01)|Logistic Regression|How to implement Logistic Regression from scratch|
+|02/11/2024|[M05W02](./module-5/02_11_2024_M05W02)|Logistic Regression|How to implement Logistic Regression|
+|09/11/2024|[M05W03](./module-5/09_11_2024_M05W03)|Multi-Layer Perceptron (MLPs) and Activation Functions|How to implement Multi-Layer Perceptron with PyTorch|
 
 ### [Module 6: Deep Learning for Different Data (Using PyTorch)](./module-6)
 |Date|ID|Topic|Note|
