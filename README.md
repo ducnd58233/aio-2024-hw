@@ -123,6 +123,8 @@ Comment this since github sanitize this style tag
 ### [Module 6: Deep Learning for Different Data (Using PyTorch)](./module-6)
 |Date|ID|Topic|Note|
 |---|---|---|---|
+|30/11/2024|[M06W01](./module-6/30_11_2024_M06W01)|Convolutional Neural Networks (CNN)|How to implement Convolutional Neural Networks (CNN) for image classification|
+|07/12/2024|[M06W02](./module-6/07_12_2024_M06W02)|Advanced Convolutional Neural Networks (CNN)|How to implement Advanced Convolutional Neural Networks (CNN) (ResNet, DenseNet) for image classification|
 
 
 ### [Module 7: Deep Learning Applications for Images](./module-7)
