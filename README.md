@@ -88,7 +88,6 @@ Comment this since github sanitize this style tag
 |15/06/2024|[M01EX03](./module-1/15_06_2024_M01EX03)|OOP|OOP with Python|
 |22/06/2024|[M01EX04](./module-1/22_06_2024_M01EX04)|Streamlit|Streamlit project|
 
-
 ### [Module 2: Calculus and Linear Algegra, and theirs Applications to AI](./module-2)
 |Date|ID|Topic|Note|
 |---|---|---|---|
@@ -106,7 +105,6 @@ Comment this since github sanitize this style tag
 |08/09/2024|[M03EX04](./module-3/08_09_2024_M03EX04)|Ensemble Learning|Using library to for Decision Tree, Random Forest, AdaBoost and Gradient Boosting applied to Regression|
 |13/09/2024|[M03EX05](./module-3/13_09_2024_M03EX05)|XGBoost|How to implement XGBoost from scratch and using library XGBoost|
 
-
 ### [Module 4: Machine Learning and Data Science](./module-4)
 |Date|ID|Topic|Note|
 |---|---|---|---|
@@ -117,6 +115,7 @@ Comment this since github sanitize this style tag
 ### [Module 5: Steps to Deep Learning (Using Numpy and PyTorch)](./module-5)
 |Date|ID|Topic|Note|
 |---|---|---|---|
+|26/10/2024|[M05EX01](./module-5/26_10_2024_M05EX01)|Logistic Regression|How to implement Logistic Regression from scratch|
 
 ### [Module 6: Deep Learning for Different Data (Using PyTorch)](./module-6)
 |Date|ID|Topic|Note|
