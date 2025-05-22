@@ -125,6 +125,7 @@ Comment this since github sanitize this style tag
 |---|---|---|---|
 |30/11/2024|[M06W01](./module-6/30_11_2024_M06W01)|Convolutional Neural Networks (CNN)|How to implement Convolutional Neural Networks (CNN) for image classification|
 |07/12/2024|[M06W02](./module-6/07_12_2024_M06W02)|Advanced Convolutional Neural Networks (CNN)|How to implement Advanced Convolutional Neural Networks (CNN) (ResNet, DenseNet) for image classification|
+|14/12/2024|[M06W03](./module-6/14_12_2024_M06W03)|Recurrent Neural Networks (RNNs)|How to implement Recurrent Neural Networks (RNNs) for text classification and tabular data|
 
 
 ### [Module 7: Deep Learning Applications for Images](./module-7)
