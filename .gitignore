@@ -1,6 +1,7 @@
 # Created by https://www.toptal.com/developers/gitignore/api/python,sonar,sonarqube,visualstudiocode,pycharm,linux,macos,windows
 # Edit at https://www.toptal.com/developers/gitignore?templates=python,sonar,sonarqube,visualstudiocode,pycharm,linux,macos,windows
 
+**/models/*
 *.zip
 **/data/*
 **/cache/*

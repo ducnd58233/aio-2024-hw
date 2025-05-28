@@ -132,12 +132,14 @@ Comment this since github sanitize this style tag
 ### [Module 7: Deep Learning Applications for Images](./module-7)
 |Date|ID|Topic|Note|
 |---|---|---|---|
-
+|05/01/2025|[M07W01](./module-7/05_01_2025_M07W01)|UNet|How to implement Super Resolution (SISR) and Image Inpainting using UNet|
+|13/01/2025|[M07W02](./module-7/13_01_2025_M07W02)|Object Detection1 |How to implement Object Detection from scratch|
+|18/01/2025|[M07W03](./module-7/18_01_2025_M07W03)|Object Detection 2|How to implement Object Detection using YOLO|
 
 ### [Module 8: Deep Learning Applications for Text](./module-8)
 |Date|ID|Topic|Note|
 |---|---|---|---|
-
+|25/01/2025|[M08W01](./module-8/01_02_2025_M08W01)|POS Tagging and Medical NER|How to implement POS Tagging and Medical NER|
 
 ### [Module 9: Generative Models](./module-9)
 |Date|ID|Topic|Note|
